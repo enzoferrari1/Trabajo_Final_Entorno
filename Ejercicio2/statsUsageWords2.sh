@@ -6,7 +6,8 @@
 [ ! -s $1 ] && echo "El archivo debe ser no vacío" && exit 3
 
 
-cat $1 | tr -c '[:alnum:]-' '\n' | sed -E 's/\b.{1,3}\b//g' | sed '/^[[:blank:]]*$/ d ' | sort | uniq -c  | sort -nr | head -10
+#cat $1 | tr -c '[:alnum:]-' '\n' | sed -E 's/\b.{1,3}\b//g' | sed '/^[[:blank:]]*$/ d ' | sort | uniq -c  | sort -nr | head -10
+cat $1 | tr -c '[:alnum:]-' '\n' | egrep -o '^.{4,}$' | sort | uniq -c  | sort -nr | head -10
 # Explicación paso a paso de lo que hace cada pipeline
 # cat $1: lee el archivo
 # tr -c '[:alnum:]-' '\n': reemplaza todos los carácteres no deseados en saltos de linea asi luego puede ser filtrado mediante el comando sed, más adelante se eliminaran las lineas vacías.
@@ -16,3 +17,5 @@ cat $1 | tr -c '[:alnum:]-' '\n' | sed -E 's/\b.{1,3}\b//g' | sed '/^[[:blank:]]
 # uniq -c: uniq omite lineas repetidas, -c agrega un prefijo de la cantidad de veces que se repitió cada línea
 # sort -nr: usamos sort nuevamente para: -n reordenar según el valor numérico, -r para invertir el orden, de manera que las palabras más frecuentes aparezcan primero
 # head -10: muestra las primeras 10 lineas.
+
+#Segunda versión: se observó que se puede reemplazar el comando sed con el grep.
