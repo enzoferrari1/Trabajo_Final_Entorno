@@ -13,7 +13,7 @@ CANT_LETRAS=0
 CANT_PAL=0
 for A in $(cat $1);
 do
-	PALABRA=$(echo $A | tr -d '.,:;()"¿?¡!') # el comando tr borra los elementos especificados de la palabra
+	PALABRA=$(echo $A | tr -cd '[:alnum:]-') # todos los carácteres que no sean alfanuméricos y el guión seran borrados
 	[ -z $PALABRA ] && continue
 	[ -z $CORTA ] && CORTA=$PALABRA #La primera palabra se usará para comparar la palabra más corta
 	[ ${#PALABRA} -le ${#CORTA} ] && CORTA=$PALABRA
