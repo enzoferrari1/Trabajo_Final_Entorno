@@ -1,7 +1,7 @@
 [![es](https://img.shields.io/badge/lang-es-aquamarine.svg)](https://github.com/enzoferrari1/Trabajo_Final_Entorno/blob/master/README.es.md)
 
-# Project - Programming Environment
-Final project for the subject Programming Environment within the University Technical Degree in Artificial Intelligence, FCEIA.
+# Project - Entorno de Programación
+Final project for the subject Entorno de Programación within the Tecnicatura Universitaria en Inteligencia Artificial, FCEIA.
 
 ## Description
 This project focuses on the use of bash, git, and Docker containers.
