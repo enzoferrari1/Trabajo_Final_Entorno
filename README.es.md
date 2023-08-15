@@ -1,3 +1,6 @@
+[![en](https://img.shields.io/badge/lang-en-orange.svg)](https://github.com/enzoferrari1/Trabajo_Final_Entorno/blob/master/README.md)
+
+
 # Trabajo Práctico - Entorno de Programación
 Trabajo Final de la materia Entorno de Programación, de la Tecnicatura Universitaria en Inteligencia Artificial, FCEIA.
 
