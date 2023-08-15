@@ -5,7 +5,7 @@ Trabajo Final de la materia Entorno de Programación, de la Tecnicatura Universi
 Este trabajo se enfoca en el uso de bash, git y contenedores de Docker
 
 ### Contenido
-Este programa permite al usuario analizar un texto mediante 
+Este programa permite al usuario analizar un texto
 
 Consta de las siguientes funcionalidades:
 - statsWords.sh : indicador estadístico de longitud de palabras
