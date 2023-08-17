@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-en-orange.svg)](https://github.com/enzoferrari1/Trabajo_Final_Entorno/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-orange.svg)](https://github.com/enzoferrari1/Trabajo_Final_Entorno/blob/master/README.en.md)
 
 
 # Trabajo Práctico - Entorno de Programación
