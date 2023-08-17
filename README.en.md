@@ -1,4 +1,4 @@
-[![es](https://img.shields.io/badge/lang-es-aquamarine.svg)](https://github.com/enzoferrari1/Trabajo_Final_Entorno/blob/master/README.es.md)
+[![es](https://img.shields.io/badge/lang-es-aquamarine.svg)](https://github.com/enzoferrari1/Trabajo_Final_Entorno/blob/master/README.md)
 
 # Project - Entorno de Programación
 Final project for the subject Entorno de Programación within the Tecnicatura Universitaria en Inteligencia Artificial, FCEIA.
